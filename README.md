@@ -1,9 +1,15 @@
 Arduino bluetooth crawler
 =========================
 
-Исходники для гусеничной bluetooth-плафтормы постороенной на базе Arduino. Детали тут: http://romka.eu/blog/gusenichnaya-platforma-na-arduino-upravlyaemaya-s-android-smartfona.
+Исходники для гусеничной bluetooth-плафтормы постороенной на базе Arduino. Подробное описание проекта тут: http://romka.eu/blog/gusenichnaya-platforma-na-arduino-upravlyaemaya-s-android-smartfona.
 
 В репозитории 3 директории:
 * sketch - скетч для Arduino,
 * android - исходники Android-приложения, контролирующего платформу,
-* desktop - исходники desktop-приложения, контролирующего платформу. Приложение написано на Python с использованием библиотеки PyQt4.
+* desktop - исходники desktop-приложения, контролирующего платформу. Приложение написано на Python с использованием библиотек PyQt4 (GUI) и pybluez (https://code.google.com/p/pybluez/, работа с Bluetooth).
+ 
+Прежде чем нажимать кнопку Connect а андроид/десктоп приложении нужно:
+
+1. включить Ардуино с присоединенный блютуз-адаптером,
+2. в настройках Bluetooth операционной системы нужно подключить устройство с именем linvor (так называется используемый в этом проекте адаптер, пароль 1234),
+3. после этого из приложения можно получить доступ к блютуз-адаптеру платформы.
