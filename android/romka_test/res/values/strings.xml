@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Romka was here</string>
+    <string name="app_name">Romka_test</string>
+    <string name="left_top_button">LT</string>
+    <string name="left_stop_button">LS</string>
+    <string name="left_down_button">LD</string>
+    <string name="both_top_button">BU</string>
+    <string name="both_stop_button">BS</string>
+    <string name="both_down_button">BD</string>
+    <string name="right_top_button">RT</string>
+    <string name="right_stop_button">RS</string>
+    <string name="right_down_button">RD</string>
+    <string name="close_button">Close BT conn</string>
+    <string name="connect_button">Connect BT</string>
+    <string name="rot_left">Rotate left</string>
+    <string name="rot_right">Rotate right</string>
+    <string name="cam_left">Cam left</string>
+    <string name="cam_right">Cam right</string>
+    <string name="cam_up">Cam up</string>
+    <string name="cam_down">Cam down</string>
+
+</resources>
